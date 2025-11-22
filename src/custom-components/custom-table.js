@@ -239,6 +239,7 @@ export default function GroupedTableWithoutVirtualization({ data, regionPageSize
 
             <div className="gtv-header">
                 <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
+                    <img className="gtv-img" src="https://t3.ftcdn.net/jpg/02/28/18/48/360_F_228184808_BwcnbLZRuqThsuWqDtx8dJRM6CmfLkHN.jpg" alt="ref" />
                     <div>
                         <div className="gtv-title">Marketing Dashboard</div>
                         <div className="gtv-meta">Grouped by Channel → Region (per-region paging)</div>
