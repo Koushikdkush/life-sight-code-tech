@@ -76,6 +76,7 @@ export default function GroupedTableWithoutVirtualization({ data, regionPageSize
     }, [filterText]);
 
     // 1) Filter
+    // fixed filter across channel and region for simplicity, can be extended to other fields if needed
     const filtered = useMemo(() => {
         if (!debouncedFilter) return data;
         const q = debouncedFilter;
